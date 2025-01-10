@@ -103,9 +103,9 @@ export function Header() {
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? (
-                <X className="h-6 w-6 text-white" />
+                <X className="h-8 w-8 text-blue-500" />
               ) : (
-                <Menu className="h-6 w-6 text-white" />
+                <Menu className="h-8 w-8 text-blue-500" />
               )}
             </button>
           </div>
