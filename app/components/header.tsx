@@ -43,16 +43,16 @@ export function Header() {
     >
       {/* Top Bar - Hidden on Mobile */}
       <div className="hidden md:block bg-blue-500 py-2">
-        <div className="container mx-auto px-4 text-black">
+        <div className="container mx-auto px-4 text-white">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
-                <MapPin className="h-4 w-4 text-black" />
+                <MapPin className="h-4 w-4 text-white" />
                 <Link
                   href="https://www.google.com/maps/search/?api=1&query=215+Voortrekker+Road+BellVille"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm hover:text-white-500 transition-colors"
+                  className="text-sm hover:text-black transition-colors"
                 >
                   215 Voortrekker Road, BellVille 7530, Cape Town, SA
                 </Link>
@@ -60,12 +60,12 @@ export function Header() {
               
               </div>
               <div className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-black" />
+                <Phone className="h-4 w-4 text-white" />
                 <span className="text-sm">+27 71-925-0250</span>
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <Clock className="h-4 w-4 text-black" />
+              <Clock className="h-4 w-4 text-white" />
               <span className="text-sm">Mon-Friday: 8:30 AM - 16:30 PM</span>
             </div>
           </div>
@@ -73,12 +73,12 @@ export function Header() {
       </div>
 
       {/* Main Header */}
-      <div className="bg-black/80 py-4">
+      <div className="bg-white ">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link href="/" className="">
-              <Image alt='mother city logo'src={'logo.jpg'}  className='rounded-full' width={50} height={50}/>
+              <Image alt='mother city logo'src={'/logo.jpg'}  className='rounded-full mt-2' width={80} height={80}/>
             </Link>
 
             {/* Desktop Menu */}
@@ -88,7 +88,7 @@ export function Header() {
                   <li key={item.name}>
                     <Link 
                       href={item.href}
-                      className="text-white hover:text-white/70 transition-colors"
+                      className="text-black hover:text-blue-500 transition-colors"
                     >
                       {item.name}
                     </Link>
