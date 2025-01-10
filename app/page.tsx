@@ -7,6 +7,10 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Header />
       <WhatsAppButton />
+      <section className="">
+         
+
+      </section>
     </main>
   );
 }
