@@ -143,7 +143,7 @@ export function Header() {
                     href="https://www.google.com/maps/search/?api=1&query=215+Voortrekker+Road+BellVille"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm hover:text-white-500 transition-colors"
+                    className="text-sm hover:text-blue-500 transition-colors"
                   >
                     215 Voortrekker Road, BellVille 7530, Cape Town, SA
                   </Link>
