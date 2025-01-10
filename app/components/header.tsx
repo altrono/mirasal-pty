@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 import { Phone, Clock, MapPin, Menu, X } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export function Header() {
 
@@ -77,7 +78,7 @@ export function Header() {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link href="/" className="">
-              <img alt='mother city logo'src={'logo.png'} />
+              <Image alt='mother city logo'src={'logo.jpg'}  className='rounded-full' width={50} height={50}/>
             </Link>
 
             {/* Desktop Menu */}
