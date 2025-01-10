@@ -12,7 +12,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold text-red-500">Mirasal Boost 1 (PTY) <br />
         Ltd (2024783173/07)</h1>
         <h2 className="text-black font-medium text-xl my-4">CAPE TOWN/FREIGHT JOHANNESBURG </h2>
-        <div className="flex gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           <div className="flex flex-col">
             <p className="text-black">CONTACT: (+27) 68 099 8539 / (+27) 71 925 0250 </p>
             <p className="text-black">EMAIL: mirasalboost1@gmail.com</p>
