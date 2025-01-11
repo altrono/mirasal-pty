@@ -50,13 +50,13 @@ export function Services() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white p-6 rounded-lg text-center group hover:bg-white transition-colors duration-300"
+              className="bg-white p-6 rounded-lg text-center group hover:bg-blue-500 transition-colors duration-300"
             >
               <div className="mb-4 flex justify-center">
-                <service.icon className="h-12 w-12 text-blue-500 group-hover:text-black transition-colors" />
+                <service.icon className="h-12 w-12 text-blue-500 group-hover:text-white transition-colors" />
               </div>
-              <h3 className="text-xl font-bold mb-2 text-blue-500 group-hover:text-black">{service.title}</h3>
-              <p className="text-gray-600 mb-4 group-hover:text-black">{service.description}</p>
+              <h3 className="text-xl font-bold mb-2 text-blue-500 group-hover:text-white">{service.title}</h3>
+              <p className="text-gray-600 mb-4 group-hover:text-white">{service.description}</p>
             
             </motion.div>
           ))}

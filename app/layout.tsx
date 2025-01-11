@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "Located on Long Street in Cape Town, we provide premium beauty services such as manicures, pedicures, haircuts, trimming, and foot therapy. Book your appointment now!",
   keywords: "Cape Town salon, manicure, pedicure, haircut, trimming, foot therapy, beauty services, Long Street salon, spa treatments, best salon in Cape Town, hair, nails",
   icons: {
-    icon: '/log.png'
+    icon: '/logo.jpg'
   },
   openGraph: {
     title: "Best Salon in Cape Town | Manicures, Pedicures, Haircuts & More",

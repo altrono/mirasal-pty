@@ -3,6 +3,7 @@ import { Header } from "./components/header";
 import { WhatsAppButton } from "./components/whatsap-button";
 import { Hero } from "./components/Hero";
 import { Services } from "./components/services";
+import { AboutSection } from "./components/about";
 
 
 export default function Home() {
@@ -10,7 +11,8 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Header />
       <Hero />
-      <Services />  
+      <Services /> 
+      <AboutSection /> 
       <WhatsAppButton />
 
       <section id="about" className="flex flex-col justify-center items-center min-h-screen pt-20">
