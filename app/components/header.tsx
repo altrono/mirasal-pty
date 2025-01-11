@@ -30,9 +30,7 @@ export function Header() {
   const menuItems = [
     { name: 'Dáccueil', href: '#gohome' },
     { name: 'Nos Services', href: '#services' },
-    { name: 'A propos  de nous', href: '#about' },
-    { name: 'Team', href: '#team' },
-    { name: 'Testimonials', href: '#testimonials' },
+    { name: 'Qui sommes-nous', href: '#about' },
     { name: 'Nous Contacter', href: '#contact' }
   ]
 
