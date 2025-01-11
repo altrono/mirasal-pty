@@ -31,7 +31,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-20 bg-black">
+    <section id="services" className="py-20 bg-gray-200">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -39,8 +39,8 @@ export function Services() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4 text-white mt-20">Nos Services</h2>
-          <p className="text-white">Professional Care For Your Style</p>
+          <h2 className="text-4xl font-bold mb-4  mt-20 text-blue-500">Nos Services</h2>
+          <p className="text-gray-500">Que peut faire Mirasal Pty pour vous ?</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
