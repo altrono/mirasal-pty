@@ -28,12 +28,12 @@ export function Header() {
   }, [])
 
   const menuItems = [
-    { name: 'Home', href: '#' },
-    { name: 'Services', href: '#services' },
-    { name: 'Gallery', href: '#gallery' },
+    { name: 'Dáccueil', href: '/' },
+    { name: 'Nos Services', href: '#services' },
+    { name: 'A propos  de nous', href: '#about' },
     { name: 'Team', href: '#team' },
     { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Nous Contacter', href: '#contact' }
   ]
 
   return (
@@ -73,7 +73,7 @@ export function Header() {
       </div>
 
       {/* Main Header */}
-      <div className="bg-transparent ">
+      <div className="bg-white ">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             {/* Logo */}

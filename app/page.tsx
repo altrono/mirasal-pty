@@ -1,13 +1,17 @@
 import Image from "next/image";
 import { Header } from "./components/header";
 import { WhatsAppButton } from "./components/whatsap-button";
+import { Hero } from "./components/Hero";
 
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       <Header />
+      <Hero />
+      
       <WhatsAppButton />
+
       <section className="flex flex-col justify-center items-center min-h-screen pt-20">
         <h1 className="text-2xl font-bold text-red-500">Mirasal Boost 1 (PTY) <br />
         Ltd (2024783173/07)</h1>
