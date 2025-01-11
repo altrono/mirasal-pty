@@ -5,7 +5,7 @@ import "./globals.css"
 const oswald = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mirasal Fret | Manicures, Pedicures, Haircuts & More | Long Street",
+  title: "Mirasal Fret | Fret aérien, Fret maritime, Transport de colis  RDC en Afrique du Sud, Agence d'envoi, Cape TOWN, Johannesburg , Lubumbashi",
   description: "Located on Long Street in Cape Town, we provide premium beauty services such as manicures, pedicures, haircuts, trimming, and foot therapy. Book your appointment now!",
   keywords: "Cape Town salon, manicure, pedicure, haircut, trimming, foot therapy, beauty services, Long Street salon, spa treatments, best salon in Cape Town, hair, nails",
   icons: {

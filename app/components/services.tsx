@@ -1,30 +1,31 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Scissors, BeakerIcon as Beard, SprayCanIcon as Spray, Coffee } from 'lucide-react'
+import { ForkliftIcon as Fork,  ShipIcon as Ship, PlaneIcon as Plane, TruckIcon as Truck } from 'lucide-react'
 
 const services = [
   {
-    icon: Scissors,
-    title: "Haircut",
-    description: "Professional haircut with consultation",
+    icon: Plane,
+    title: "Fret aérien",
+    description: "Prêts à faire décoller votre chaîne d'approvisionnement, quels que soient le poids et les dimensions de votre fret ?",
+
   },
+  
   {
-    icon: Beard,
-    title: "Beard Trim",
-    description: "Shape and style your beard",
+    icon: Ship,
+    title: "Fret maritime",
+    description: "L’océan n’aura plus de secret pour vous grâce à nos solutions de fret maritime.",
 
   },
   {
-    icon: Spray,
-    title: "Hair Styling",
-    description: "Style for any occasion",
-
+    icon: Fork,
+    title: "Transport de colis",
+    description: "Vous recherchez une solution de haute qualité pour transporter rapidement vos expéditions mono et multi-colis ? ",
   },
   {
-    icon: Coffee,
-    title: "Hot Towel Shave",
-    description: "Traditional straight razor shave",
+    icon: Truck,
+    title: "Transport routier",
+    description: "Transportez vos marchandises par voie terrestre avec"
   }
 ]
 
@@ -38,7 +39,7 @@ export function Services() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold mb-4 text-white mt-20">Our Services</h2>
+          <h2 className="text-4xl font-bold mb-4 text-white mt-20">Nos Services</h2>
           <p className="text-white">Professional Care For Your Style</p>
         </motion.div>
 
@@ -49,13 +50,13 @@ export function Services() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-gray-900 p-6 rounded-lg text-center group hover:bg-white transition-colors duration-300"
+              className="bg-white p-6 rounded-lg text-center group hover:bg-white transition-colors duration-300"
             >
               <div className="mb-4 flex justify-center">
-                <service.icon className="h-12 w-12 text-white group-hover:text-black transition-colors" />
+                <service.icon className="h-12 w-12 text-blue-500 group-hover:text-black transition-colors" />
               </div>
-              <h3 className="text-xl font-bold mb-2 text-white group-hover:text-black">{service.title}</h3>
-              <p className="text-gray-400 mb-4 group-hover:text-black">{service.description}</p>
+              <h3 className="text-xl font-bold mb-2 text-blue-500 group-hover:text-black">{service.title}</h3>
+              <p className="text-gray-600 mb-4 group-hover:text-black">{service.description}</p>
             
             </motion.div>
           ))}
