@@ -37,7 +37,7 @@ export function Header() {
   return (
     <motion.header 
       style={{ backgroundColor: headerBackground }}
-      className="fixed top-0 left-0 right-0 z-50 text-white w-full "
+      className="fixed top-0 left-0 right-0 z-50 text-white w-full"
     >
       {/* Top Bar - Hidden on Mobile */}
       <div className="hidden md:block bg-blue-500 py-2">
@@ -71,7 +71,7 @@ export function Header() {
       </div>
 
       {/* Main Header */}
-      <div className="bg-white ">
+      <div className="bg-white px-2">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
