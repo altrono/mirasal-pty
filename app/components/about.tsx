@@ -37,10 +37,10 @@ export function AboutSection() {
               <h2 className="text-2xl font-bold">
               Nous faisons du commerce mondial une réalité
               </h2>
-              <p className="text-gray-400 mb-2">
-              At <span className="text-blue-500 text-xl font-bold tracking-widest leading-[2rem]">Mirasal </span>, We believe in building long-term relationships, not just completing projects. Our goal is to help your business scale and succeed by providing the digital tools and expertise you need to stay competitive in the fast-evolving tech world. With our focus on results-driven solutions, you can trust us to deliver measurable growth and tangible outcomes.
+              <p className="text-gray-600 mb-2">
+              At <span className="text-red-500 text-xl font-bold tracking-widest leading-[2rem]">Mirasal Boost 1 (PTY) Ltd (2024783173/07)</span>, Nous proposons un mélange de types de conteneurs pour répondre à toutes les marchandises que vous souhaitez expédier. Avec une flotte de conteneurs modernes et un fort accent sur l'innovation, nous cherchons toujours à améliorer le conteneur pour vous.
               </p>
-              <p className="text-gray-400 mb-1 text-left">
+              <p className="text-gray-600 mb-1 text-left">
               How We Help You Succeed:
               </p>
               

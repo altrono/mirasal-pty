@@ -8,7 +8,7 @@ import { AboutSection } from "./components/about";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-white overflow-hidden">
       <Header />
       <Hero />
       <Services /> 
@@ -16,8 +16,7 @@ export default function Home() {
       <WhatsAppButton />
 
       <section id="about" className="flex flex-col justify-center items-center min-h-screen pt-20">
-        <h1 className="text-2xl font-bold text-red-500 pt-10">Mirasal Boost 1 (PTY) <br />
-        Ltd (2024783173/07)</h1>
+        <h1 className="text-2xl font-bold text-red-500 pt-10">Mirasal Boost 1 (PTY)</h1>
         <h2 className="text-black font-medium text-xl my-4">CAPE TOWN/FREIGHT JOHANNESBURG </h2>
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex flex-col">
