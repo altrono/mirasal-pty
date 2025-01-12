@@ -21,7 +21,7 @@ export function Hero() {
             className="text-center text-white"
           >
             <motion.h1 
-              className="text-3xl md:text-6xl font-bold mb-6"
+              className="text-2xl md:text-6xl font-bold mb-6"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.5 }}
