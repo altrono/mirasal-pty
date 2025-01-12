@@ -37,7 +37,7 @@ export function Header() {
   return (
     <motion.header 
       style={{ backgroundColor: headerBackground }}
-      className="fixed top-0 left-0 right-0 z-50 text-white w-full"
+      className="fixed top-0 left-0 right-0 z-50 text-white min-w-full"
     >
       {/* Top Bar - Hidden on Mobile */}
       <div className="hidden md:block bg-blue-500 py-2">
@@ -72,8 +72,8 @@ export function Header() {
 
       {/* Main Header */}
       <div className="bg-white px-2">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
+        <div className="container mx-auto w-full px-4">
+          <div className="flex justify-between items-center px-4">
             {/* Logo */}
             <Link href="/" className="">
               <Image alt='mother city logo'src={'/logo.jpg'}  className='rounded-full mt-2' width={80} height={80}/>
