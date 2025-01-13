@@ -62,7 +62,7 @@ export function Team() {
               transition={{ duration: 0.6 }}
             >
               <div className="w-full hidden md:block -mt-10">
-                <h1 className="text-4xl font-bold text-gray-900 mb-4">Message de notre President et CEO</h1>
+                <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Message de notre President et CEO</h1>
                 <h2 className="text-2xl text-blue-500 font-semibold mb-6">Eric Limbaya</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">
