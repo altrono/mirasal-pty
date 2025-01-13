@@ -10,7 +10,7 @@ import Link from "next/link"
 export function Team() {
   return (
     <section id="about" className="min-h-screen bg-gray-200 relative overflow-hidden px-6 pt-20">
-      <div className="absolute top-0 right-0 w-2 md:w-4 h-full bg-blue-500" />
+      <div className="z-10 absolute top-0 right-0 w-2 md:w-4 h-full bg-blue-500" />
       <div className="container mx-auto px-4 py-12 md:py-24">
         <div className="flex flex-col md:flex-row gap-4 items-center j max-w-5xl mx-auto px-4 ">
           <motion.div
@@ -51,11 +51,11 @@ export function Team() {
               alt="CEO Portrait"
               width={400}
               height={600}
-              className="rounded-lg "
+              className="rounded-lg"
             />
           </motion.div>
 
-          <div className="space-y-8  -mt-20">
+          <div className="space-y-8 -mt-48  md-mt-20 px-10 md:px-0">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
