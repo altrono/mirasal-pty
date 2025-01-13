@@ -35,7 +35,7 @@ export function Hero() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.7 }}
           >
-            Nous sommes à votre service pour vos Frets, Envois courriers, Achat par Correspondance et divers. <br className="md:hidden" />C'est nous.
+            Nous sommes à votre service pour vos Frets, Envois courriers, Achat par Correspondance et divers. <br className="md:hidden" />C&apos;est nous.
             
           </motion.p>
           

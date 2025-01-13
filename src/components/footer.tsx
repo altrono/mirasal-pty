@@ -31,7 +31,7 @@ export function Footer() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-            <p className="text-gray-800">215 Voortrekker Road, BellVille 7530, Cape Town, SA</p>
+            <p className="text-gray-800 ">215 Voortrekker Road, BellVille 7530, Cape Town, SA</p>
             <p className="text-gray-800">Phone: +27 78-971-4069</p>
             <p className="text-gray-800">Email: info@mirasal.co.za</p>
           </motion.div>

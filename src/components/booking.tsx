@@ -33,7 +33,7 @@ export function Booking() {
       >
         <h2 className="text-4xl font-bold mb-8 text-center text-white mt-20">NOUS REJOINDRE</h2>
         <p className="text-lg text-center text-white/80 max-w-4xl mx-auto my-5" >
-          Rejoignez-nous dans un parcours qui permettra de prendre des initiatives audacieuses et de saisir les opportunités de croissance et de développement qui vous conviennent. Oser se développer avec CEVA Logistics et contribuer à façonner l'avenir de la logistique mondiale grâce à l'imagination, l'excellence et l'engagement.
+          Rejoignez-nous dans un parcours qui permettra de prendre des initiatives audacieuses et de saisir les opportunités de croissance et de développement qui vous conviennent. Oser se développer avec CEVA Logistics et contribuer à façonner l&apos;avenir de la logistique mondiale grâce à l&apos;imagination, l&apos;excellence et l&apos;engagement.
         </p>
 
         <form onSubmit={handleSubmit} className="max-w-2xl mx-auto">
@@ -147,7 +147,7 @@ export function Booking() {
               type="submit"
               className="bg-white/80 text-black px-8 py-3 font-semibold rounded-md hover:bg-white transition-colors"
             >
-              Book Now
+              Nous Contacter 
             </button>
           </motion.div>
         </form>

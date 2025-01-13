@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
-import { ImageWithSkeleton } from "../image-with-skeleton";
+import Image from "next/image";
 
 export const InfiniteMovingCards = ({
   items,
@@ -74,7 +74,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  ",
+        "scroller relative z-20  w-full overflow-hidden  ",
         className
       )}
     >
@@ -91,7 +91,7 @@ export const InfiniteMovingCards = ({
             className=" max-w-full relative rounded-2xl  flex-shrink-0   "
             key={item.name}
           >
-            <ImageWithSkeleton src="/partner.jpg" alt="partner"  height={200} width={400} className="rounded-md w-full" />
+            <Image src="/partner.jpg" alt="partner"  height={100} width={200} className="rounded-md w-full" />
             
           </li>
         ))}

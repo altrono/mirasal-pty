@@ -12,14 +12,14 @@ export function Team() {
     <section className="min-h-screen bg-gray-200 relative overflow-hidden px-6">
       <div className="absolute top-0 right-0 w-2 md:w-4 h-full bg-blue-500" />
       <div className="container mx-auto px-4 py-12 md:py-24">
-        <div className="flex flex-col md:flex-row gap-4 items-center max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row gap-4 items-center j max-w-5xl mx-auto px-4 ">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="absolute bottom-8 left-8 z-10 bg-transparent">
+            <div className="absolute bottom-48 md:bottom-44 left-0 z-10 bg-transparent">
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -51,17 +51,17 @@ export function Team() {
               alt="CEO Portrait"
               width={400}
               height={600}
-              className="rounded-lg  "
+              className="rounded-lg "
             />
           </motion.div>
 
-          <div className="space-y-8">
+          <div className="space-y-8  -mt-20">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="w-full hidden md:block">
+              <div className="w-full hidden md:block -mt-10">
                 <h1 className="text-4xl font-bold text-gray-900 mb-4">Message de notre President et CEO</h1>
                 <h2 className="text-2xl text-blue-500 font-semibold mb-6">Eric Limbaya</h2>
               </div>
@@ -103,7 +103,7 @@ export function Team() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.6 }}
-              className="flex gap-4"
+              className="flex gap-4 mt-10"
             >
               <Link href={"#contact"}  className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition-colors">
               Devenir Partner
