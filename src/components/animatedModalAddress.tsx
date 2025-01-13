@@ -4,12 +4,10 @@ import {
   Modal,
   ModalBody,
   ModalContent,
-  ModalFooter,
   ModalTrigger,
 } from "./ui/animated-modal";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { p } from "framer-motion/client";
 import Link from "next/link";
 
 export function AnimatedModalAddress() {
