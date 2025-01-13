@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Facebook, Instagram, Twitter } from 'lucide-react'
 import { ImageWithSkeleton } from "./image-with-skeleton"
+import Link from "next/link"
 
 export function Footer() {
   return (
@@ -60,7 +61,7 @@ export function Footer() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400"
         >
-          <p className="text-gray-800">&copy; {new Date().getFullYear()} Powered by AltroTech. All rights reserved.</p>
+          <Link href={"https://www.heri-lolenga.com"} target="_blank"><p className="text-gray-800">&copy; {new Date().getFullYear()} Powered by AltroTech. All rights reserved.</p></Link>
         </motion.div>
       </div>
     </footer>

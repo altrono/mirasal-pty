@@ -71,7 +71,7 @@ export function AnimatedModalAddress() {
       <Modal>
         <ModalTrigger className="bg-blue-500 dark:bg-white dark:text-blue-500 text-white flex justify-center group/modal-btn px-4 py-2">
           <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
-            Nous Contacter
+            Address
           </span>
           <div className="-translate-x-40 group-hover/modal-btn:translate-x-0 flex items-center justify-center absolute inset-0 transition duration-500 text-white z-20">
             ✈️
