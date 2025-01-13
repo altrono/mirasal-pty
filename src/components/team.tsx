@@ -9,7 +9,7 @@ import Link from "next/link"
 
 export function Team() {
   return (
-    <section className="min-h-screen bg-gray-200 relative overflow-hidden px-6">
+    <section id="about" className="min-h-screen bg-gray-200 relative overflow-hidden px-6 pt-20">
       <div className="absolute top-0 right-0 w-2 md:w-4 h-full bg-blue-500" />
       <div className="container mx-auto px-4 py-12 md:py-24">
         <div className="flex flex-col md:flex-row gap-4 items-center j max-w-5xl mx-auto px-4 ">

@@ -30,6 +30,7 @@ export function Footer() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
+            className="px-4"
           >
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <p className="text-gray-800 ">215 Voortrekker Road, BellVille 7530, Cape Town, SA</p>
@@ -40,6 +41,7 @@ export function Footer() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
+            className="px-4"
           >
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
