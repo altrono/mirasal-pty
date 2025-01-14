@@ -34,18 +34,7 @@ export function Team() {
                 </svg>
               </motion.div>
           </div>
-          <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="flex flex-col gap-2 px-4 md:none"
-            >
-             
-            <h1 className="text-2xl  font-bold text-gray-900 mb-4 pb-2">MESSAGE DE NOTRE CEO</h1>
-            <h2 className="text-xl text-blue-500 font-semibold mb-6">Eric Limbaya</h2>
-            
-      
-            </motion.div>
+          
             <ImageWithSkeleton
               src="/ceo.png"
               alt="CEO Portrait"
