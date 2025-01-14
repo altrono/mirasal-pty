@@ -38,7 +38,7 @@ export function Team() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="grid gap-2 px-4 "
+              className="grid gap-2 px-4 md:none"
             >
              
             <h1 className="text-2xl  font-bold text-gray-900 mb-4 pb-2">MESSAGE DE NOTRE CEO</h1>
